@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">ActionBar</string>
+    <string name="menu_search">ActionBar</string>
+    <string name="exit_search">Exit</string>
+</resources>

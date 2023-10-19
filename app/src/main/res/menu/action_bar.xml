@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ActionBar="http://schemas.android.com/apk/res-auto"
+    >
+
+
+    <item
+        android:id="@+id/actionBar"
+        android:title="@string/menu_search"
+        android:icon="@drawable/baseline_search_24"
+        ActionBar:showAsAction="ifRoom|withText"
+        />
+
+
+            <item
+                android:id="@+id/Favorite"
+                android:title="Favorite"
+                ActionBar:showAsAction="never"
+                />
+            <item
+                android:id="@+id/Share"
+                android:title="Share"
+                ActionBar:showAsAction="never"
+                >
+            <menu>
+                <item
+                    android:id="@+id/Whatsapp"
+                    android:title="Whatsapp"
+                    ActionBar:showAsAction="never"
+                    />
+
+                <item
+                    android:id="@+id/Instagram"
+                    android:title="Instagram"
+                    ActionBar:showAsAction="never"
+                    />
+
+            </menu>
+            </item>
+
+</menu>
